@@ -42,4 +42,4 @@ def truncate_text(text: str, max_length: int = 80) -> str:
         return text
     return text[:max_length - 3] + "..."
 
-geoip_db.mmdb
+# geoip_db.mmdb
