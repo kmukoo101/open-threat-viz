@@ -32,7 +32,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div class="big-title">🛰️ Open Threat Viz</div>
+<div class="big-title">Open Threat Viz</div>
 <div class="subtle-text">Empowering defenders with real-time intelligence and elegant visual insights.</div>
 """, unsafe_allow_html=True)
 
