@@ -1,1 +1,10 @@
-
+streamlit>=1.30.0
+requests
+pandas
+python-dateutil
+networkx
+pyvis
+geoip2
+scikit-learn
+beautifulsoup4
+lxml
