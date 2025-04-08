@@ -7,12 +7,9 @@ import matplotlib.pyplot as plt
 import subprocess
 from datetime import datetime
 
-# Ensure utils/ is in the path for relative import
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from utils.helpers import normalize_ioc, truncate_text
-
-
 
 DATA_DIR = "data/sample_feeds"
 st.set_page_config(
