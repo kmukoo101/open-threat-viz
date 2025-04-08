@@ -5,7 +5,6 @@
 # Terms Of Use: https://sslbl.abuse.ch/blacklist/              #
 # For questions please contact sslbl [at] abuse.ch             #
 ################################################################
-#
 # Listingdate,SHA1,Listingreason
 2025-04-08 05:44:37,e02ddb0e7267f8222cccda5fef72f87420f96e8f,OffLoader C&C
 2025-04-07 18:27:19,70599f2772f70a3b618d9707b816ba280a458517,AsyncRAT C&C
