@@ -16,7 +16,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.title("⚙️ Initialization & Feed Tools")
+st.title("Initialization & Feed Tools")
 st.caption("Verify environment setup, preview data, and access admin tools.")
 
 DATA_DIR = os.path.join("data", "sample_feeds")
