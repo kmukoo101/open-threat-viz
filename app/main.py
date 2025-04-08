@@ -1,5 +1,5 @@
 import streamlit as st
-from app.pages import dashboard, threat_feed, analytics
+from pages import dashboard, threat_feed, analytics
 
 # Page configuration
 st.set_page_config(
