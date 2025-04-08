@@ -7,14 +7,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# Sidebar navigation
-st.sidebar.title("📡 Open Threat Viz")
-page = st.sidebar.radio("Go to", ["Dashboard", "Threat Feed", "Analytics"])
-
-# Routing
-if page == "Dashboard":
-    dashboard.show()
-elif page == "Threat Feed":
-    threat_feed.show()
-elif page == "Analytics":
-    analytics.show()
+# Welcome screen
+st.title("Open Threat Viz")
+st.markdown("Use the sidebar to navigate between pages.")
