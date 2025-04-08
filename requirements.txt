@@ -8,3 +8,4 @@ geoip2
 scikit-learn
 beautifulsoup4
 lxml
+matplotlib
